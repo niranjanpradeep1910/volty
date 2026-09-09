@@ -1,0 +1,93 @@
+{
+  "name": "volty",
+  "displayName": "Volty",
+  "publisher": "niranjanpradeep1910",
+  "version": "1.0.0",
+  "description": "A 3D city model viewer extension for Visual Studio Code.",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:volty.openViewer",
+    "onCommand:volty.openModel"
+  ],
+  "main": "./dist/extension.js",
+  "icon": "docs/images/logo.png",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "volty",
+          "title": "Volty",
+          "icon": "media/volty-activity.svg"
+        }
+      ]
+    },
+    "views": {
+      "volty": [
+        {
+          "id": "volty.viewer",
+          "name": "Viewer"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "volty.openViewer",
+        "title": "Volty"
+      },
+      {
+        "command": "volty.openModel",
+        "title": "Volty: Open Model"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "typecheck": "tsc --project tsconfig.check.json",
+    "compile": "npm run compile:extension && npm run compile:webview",
+    "compile:extension": "tsc --project tsconfig.json",
+    "compile:webview": "node scripts/build-webview.cjs",
+    "watch": "npm run compile -- --watch"
+  },
+  "devDependencies": {
+    "@types/emscripten": "^1.41.6",
+    "@types/node": "^22.0.0",
+    "@types/three": "^0.170.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.9.2",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "copc": "^0.0.9",
+    "earcut": "^3.2.3",
+    "laz-perf": "^0.0.7",
+    "three": "^0.170.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niranjanpradeep1910/volty.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niranjanpradeep1910/volty/issues"
+  },
+  "homepage": "https://github.com/niranjanpradeep1910/volty#readme",
+  "keywords": [
+    "3d",
+    "point cloud",
+    "cityjson",
+    "gltf",
+    "las",
+    "laz",
+    "obj",
+    "ply",
+    "viewer"
+  ],
+  "author": "Niranjan Pradeep",
+  "license": "MIT",
+  "type": "commonjs"
+}

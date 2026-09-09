@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "rootDir": "src",
+        "strict": true,
+        "esModuleInterop": true,
+        "sourceMap": true
+    },
+    "include": [
+        "src/extension.ts",
+        "src/pointcloud/lazPreviewWorker.ts",
+        "src/pointcloud/copcPreviewWorker.ts"
+    ]
+}
+
