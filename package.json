@@ -1,15 +1,15 @@
 {
   "name": "volty",
   "displayName": "Volty",
-  "publisher": "niranjanpradeep1910",
+  "publisher": "nechromat",
   "version": "1.0.0",
-  "description": "A 3D city model viewer extension for Visual Studio Code.",
+  "description": "A lightweight 3D model and point-cloud viewer for Visual Studio Code.",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
-    "Other"
-  ],
+    "Visualization"
+      ],
   "activationEvents": [
     "onCommand:volty.openViewer",
     "onCommand:volty.openModel"
