@@ -1,0 +1,15 @@
+node_modules/
+out/
+dist/
+*.vsix
+media/webview.js
+media/webview.js.map
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+*.code-workspace
+*.tsbuildinfo
+.env
+.env.local

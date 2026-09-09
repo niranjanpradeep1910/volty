@@ -85,6 +85,7 @@ code --install-extension volty-1.0.0.vsix
 npx vsce package
 code --install-extension volty-1.0.0.vsix
 ```
+> **Note**: If the code command is not available, open VS Code and run Shell Command: Install 'code' command in PATH from the Command Palette.
 
 Restart VS Code after installation if Volty does not appear immediately.
 
