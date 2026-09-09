@@ -11,20 +11,23 @@ separate desktop viewer.
 
 ## Screenshots
 
-| [CityJSON](https://3dbag.nl/en/download?tid=9-284-556) |
+| CityJSON |
 | --- |
 | ![CityJSON tile](docs/images/cityjson.png) |
+| *Data: [3D BAG tile 9-284-556](https://3dbag.nl/en/download)* |
 
 
 
-| [Point clouds](https://fsn1.your-objectstorage.com/hwh-ahn/AHN5_KM/01_LAZ/AHN5_C_085000_446000.COPC.LAZ)  |
+| Point clouds |
 | --- |
-|![Point cloud](docs/images/pointcloud.png) |
+| ![Point cloud](docs/images/pointcloud.png) |
+| *Data: [AHN5 COPC LAZ tile C_085000_446000](https://fsn1.your-objectstorage.com/hwh-ahn/AHN5_KM/01_LAZ/AHN5_C_085000_446000.COPC.LAZ)* |
 
 
-| [Object files (eg. Wooden Tower)](https://free3d.com/3d-model/watch-tower-made-of-wood-94934.html) |
+| .obj files |
 | --- |
 | ![Wooden tower](docs/images/woodentower.png) |
+| *Data: [Wooden Watch Tower, Free3D](https://free3d.com/3d-model/watch-tower-made-of-wood-94934.html)* |
 
 
 ## Supported formats
