@@ -4,9 +4,6 @@ tsconfig.json
 tsconfig.check.json
 .gitignore
 .vscodeignore
-docs/images/cityjson.png
-docs/images/pointcloud.png
-docs/images/woodentower.png
 __MACOSX/**
 **/.DS_Store
 **/*.map
